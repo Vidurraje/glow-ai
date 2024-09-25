@@ -111,7 +111,6 @@ fun NavGraphBuilder.homeNavigationGraph(
     composable(Destinations.HomeDestination.route) { _ ->
 
         // Show bottom bar and hide floating action button for the home screen
-        showBottomBar(baseComponentState)
         hideFloatingActionButton(baseComponentState)
 
         // Display the HomeScreen composable

@@ -74,4 +74,9 @@ dependencies {
     testImplementation Deps.mockk
     testImplementation Deps.kotlinx_coroutines_test
 
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose")
+    implementation Deps.activity_compose    // Required for rememberLauncherForActivityResult
+
 }

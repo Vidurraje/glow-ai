@@ -5,13 +5,16 @@
 
 package com.mindstix.home.view
 
-import androidx.compose.material3.Text
+import android.annotation.SuppressLint
 import androidx.compose.runtime.Composable
 
 /**
  * Composable function representing the Home Screen.
  */
+@SuppressLint("Recycle")
 @Composable
 fun HomeScreen() {
-    Text(text = "Home")
+    CameraGalleryProfileInfo()
 }
+
+
